@@ -5,7 +5,9 @@ import os, sys
 path = os.getcwd()
 path = path + "/test/"
 
-print path
+# print path
+#
+os.system("mkdir -p ./test")
 
 # file = open(path + 'test.txt', 'w')
 
